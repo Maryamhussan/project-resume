@@ -97,3 +97,6 @@ function downloadPDF() {
     .from(element)
     .save();
 }
+function toggleMenu() {
+  document.body.classList.toggle("menu-active");
+}

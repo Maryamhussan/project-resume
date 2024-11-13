@@ -16,6 +16,9 @@
                 <a href="/myresume.html">My Resume</a>
                 <a href="/generate.html">Generate Now</a>
             </nav> 
+            <div class="hamburger" onclick="toggleMenu()">
+        &#9776; <!-- This is the hamburger icon -->
+    </div>
             </header>
 <section id="home">
     <h1 class="home-heading">Hi! I am <span>Maryam Hussain</span></h1>
@@ -36,5 +39,11 @@
  </footer>
         </main>
     </body>
+<script>
+    
+function toggleMenu() {
+    document.body.classList.toggle('menu-active');
+}
 
+</script>
 </html>

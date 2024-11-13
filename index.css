@@ -182,3 +182,159 @@ span{
     color: var(--color1);
     margin: 10px 0 0 0;
 }
+
+/* responsiveness */
+@media (max-width: 600px) {
+    body {
+        height: auto;
+        padding: 10px;
+    }
+
+    header {
+        font-size: 15px;
+        padding-left: 5%;
+        padding-right: 5%;
+        gap: 20%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .home-heading {
+        font-size: 50px;
+        margin: 50px auto 0;
+    }
+
+    .home-description, .home-description2 {
+        font-size: 1.5em;
+    }
+
+    .button-container {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .button, .button2 {
+        width: 200px;
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .teal {
+        padding: 12px;
+    }
+
+    .ft-icon {
+        font-size: 20px;
+    }
+
+    .ft {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 16px;
+        padding-left: 8%;
+        padding-right: 8%;
+        gap: 30%;
+    }
+
+    .home-heading {
+        font-size: 80px;
+    }
+
+    .home-description, .home-description2 {
+        font-size: 1.8em;
+    }
+
+    .button, .button2 {
+        width: 220px;
+    }
+
+    .button-container {
+        margin: 30px 25%;
+    }
+
+    .teal {
+        padding: 14px;
+    }
+
+    .ft-icon {
+        font-size: 22px;
+    }
+
+    .ft {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 993px) {
+    header {
+        font-size: 18px;
+        padding-left: 10%;
+        padding-right: 10%;
+        gap: 45%;
+    }
+    .logo{
+      font-size: 18px;
+    }
+
+    .home-heading {
+        font-size: 100px;
+    }
+
+    .button-container {
+        margin: 40px 33%;
+    }
+
+    .button, .button2 {
+        width: 250px;
+    }
+}
+
+
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 968px) {
+    .links {
+        display: none; 
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: var(--color2);
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .links a {
+        display: block;
+        padding: 10px;
+        color: var(--color1);
+        font-size: 18px;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 5%;
+    }
+
+    .menu-active .links {
+        display: block;
+    }
+     }

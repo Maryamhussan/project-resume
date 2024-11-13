@@ -16,6 +16,9 @@
                 <a href="/myresume.html">My Resume</a>
                 <a href="/generate.html">Generate Now</a>
             </nav> 
+            <div class="hamburger" onclick="toggleMenu()">
+        &#9776; <!-- This is the hamburger icon -->
+    </div>
  </header>
 <div id="content-to-download" class="cv-container">
     <div class="grid">
@@ -215,6 +218,10 @@ Computer Science</p>
   function downloadPDF() {
     document.getElementById('downloadLink').click(); 
   }
+  function toggleMenu() {
+    document.body.classList.toggle('menu-active');
+}
+
 </script>
 </body>
 
