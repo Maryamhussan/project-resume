@@ -182,15 +182,11 @@ background-color:var(--color5) ;
   opacity: 1;
   right: 0;
 }
-
-
 .hamburger {
     display: none;
     font-size: 30px;
     cursor: pointer;
 }
-
-
 @media (max-width: 968px) {
     .links {
         display: none;
@@ -222,7 +218,70 @@ background-color:var(--color5) ;
         display: block;
     }
      }
+@media (max-width: 1024px) {
+    header {
+        flex-direction: row;
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 16px;
+    }
+.logo{
+    font-size: 18px;
+}
+    .cv-container {
+        padding: 0 40px;
+    }
 
+    .grid {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .left-column, .right-column {
+        width: 45%;
+    }
+
+    .button {
+        margin-left: 10%;
+        width: 60%;
+    }
+}
+@media (max-width: 1024px) {
+    header {
+        flex-direction: row;
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 16px;
+    }
+
+    .cv-container {
+        padding: 0 40px;
+    }
+
+    .left-column, .right-column {
+        width: 45%;
+    }
+
+    .button {
+        margin-left: 10%;
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .cv-container {
+        padding: 0 40px;
+    }
+
+    .grid {
+        gap: 40px;
+    }
+
+    .left-column, .right-column {
+        width: 48%;
+    }
+}
 
 @media (max-width: 768px) {
 
@@ -253,74 +312,6 @@ background-color:var(--color5) ;
         width: 100%;
     }
 }
-
-@media (max-width: 1024px) {
-    header {
-        flex-direction: row;
-        padding-left: 8%;
-        padding-right: 8%;
-        font-size: 16px;
-    }
-.logo{
-    font-size: 18px;
-}
-    .cv-container {
-        padding: 0 40px;
-    }
-
-    .grid {
-        flex-direction: row;
-        gap: 30px;
-    }
-
-    .left-column, .right-column {
-        width: 45%;
-    }
-
-    .button {
-        margin-left: 10%;
-        width: 60%;
-    }
-}
-
-
-@media (min-width: 1200px) {
-
-    .cv-container {
-        padding: 0 40px;
-    }
-
-    .grid {
-        gap: 40px;
-    }
-
-    .left-column, .right-column {
-        width: 48%;
-    }
-}
-/* Responsive adjustments */
-@media (max-width: 1024px) {
-    header {
-        flex-direction: row;
-        padding-left: 8%;
-        padding-right: 8%;
-        font-size: 16px;
-    }
-
-    .cv-container {
-        padding: 0 40px;
-    }
-
-    .left-column, .right-column {
-        width: 45%;
-    }
-
-    .button {
-        margin-left: 10%;
-        width: 60%;
-    }
-}
-
 @media (max-width: 768px) {
     .cv-container {
         padding: 0 20px;
@@ -383,4 +374,4 @@ background-color:var(--color5) ;
         width: 90%;
     }
 }
-  */
+  

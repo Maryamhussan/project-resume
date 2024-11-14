@@ -80,9 +80,6 @@ input, textarea, select {
   border-radius: 8px;
   color: var(--color4);
 }
-
-
-
 h1, h2 {
   margin-bottom: 10px;
   
@@ -138,7 +135,6 @@ img {
     color: var(--color1);
     margin: 10px 0 0 0;
 }
-
 
 .cv-container {
   font-family: Arial, sans-serif;
@@ -276,7 +272,11 @@ a {
         width:140px;
     }
 }
-
+@media screen and (max-width: 1024px) {
+    input, textarea, select {        
+    width: 85%;    
+}
+}
 @media screen and (max-width: 768px) {
     
 
@@ -322,7 +322,11 @@ a {
         font-size: 14px;
     }
 }
-
+@media screen and (max-width: 768px) {
+    input, textarea, select {
+        width: 80%;
+    }
+}
 @media screen and (max-width: 480px) {
     
 
@@ -360,11 +364,10 @@ a {
         font-size: 16px;
     }
 }
-@media screen and (max-width: 1024px) 
-{
-    input, textarea, select {        
-    width: 85%;    
-}
+@media screen and (max-width: 480px) {
+    input, textarea, select {
+        width: 75%; 
+    }
 }
 @media screen and (max-width: 360px) {
     input, textarea, select {
@@ -372,14 +375,5 @@ a {
     }
 }
 
-@media screen and (max-width: 768px) {
-    input, textarea, select {
-        width: 80%;
-    }
-}
 
-@media screen and (max-width: 480px) {
-    input, textarea, select {
-        width: 75%; 
-    }
-}
+

@@ -222,77 +222,38 @@ span {
     }
      } 
 /* responsiveness */
-@media screen and (max-width: 360px) {
-  body{
-      height:auto;
-      padding:10px; 
-  }
-  .home-description2 {
-    font-size: 15px;
-      max-width:300px;
-  }
-  .home-description{
-      max-width:300px;
-      font-size:15px;
-      margin:20px auto;
-  }  
-  .home-heading {
-    font-size: 40px;
-      max-width:400px;
-  }
-    .button,.button2{
-        font-size:10px;
-        width:100px;
-        margin:0;
-        height:40px;
-        padding:0;
-        border-radius:10px;
-    }
-    .button{
-        padding-left:10px;
-        padding-right:10px;
-        align-items:center;
-    }
-    .button-container{
-        margin:40px 70px ;
-    }
-    footer{
-        bottom:0;
-        margin:0;
-    }
-}
- 
-@media screen and (max-width:430px){
+@media screen and (max-width:1024px){
     body{
       height:auto;
       padding:10px; 
   }
+    header{
+        font-size:17px;
+        gap:160px;
+    }
+    .links{
+        gap:50px;
+    }
     .home-heading{
-        font-size:2em;
-        margin:70px auto 0 auto;
-        padding:0;
+        font-size:100px;
     }
     .home-description,.home-description2{
-        font-size:1.2em;
-        max-width:300px;
+        font-size:1.5em;
+        max-width:600px;
     }
     .home-description{
-        margin:50px auto 30px auto;
+        margin:40px auto;
     }
     .button,.button2{
-        width:130px;
-        font-size:10px;
-        padding:10px;
+        font-size:15px;
+        width:200px;
         border-radius:10px;
     }
     .button-container{
-        margin:40px 14%;
-    }
-    .footer{
-        bottom:0;
+        margin:40px 27.5%;
     }
 }
- @media (max-width: 768px) {
+@media (max-width: 768px) {
      body{
       height:auto;
       padding:10px; 
@@ -331,34 +292,72 @@ span {
         font-size: 14px;
     }
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:430px){
     body{
       height:auto;
       padding:10px; 
   }
-    header{
-        font-size:17px;
-        gap:160px;
-    }
-    .links{
-        gap:50px;
-    }
     .home-heading{
-        font-size:100px;
+        font-size:2em;
+        margin:70px auto 0 auto;
+        padding:0;
     }
     .home-description,.home-description2{
-        font-size:1.5em;
-        max-width:600px;
+        font-size:1.2em;
+        max-width:300px;
     }
     .home-description{
-        margin:40px auto;
+        margin:50px auto 30px auto;
     }
     .button,.button2{
-        font-size:15px;
-        width:200px;
+        width:130px;
+        font-size:10px;
+        padding:10px;
         border-radius:10px;
     }
     .button-container{
-        margin:40px 27.5%;
+        margin:40px 14%;
+    }
+    .footer{
+        bottom:0;
+    }
+}
+@media screen and (max-width: 360px) {
+  body{
+      height:auto;
+      padding:10px; 
+  }
+  .home-description2 {
+    font-size: 15px;
+      max-width:300px;
+  }
+  .home-description{
+      max-width:300px;
+      font-size:15px;
+      margin:20px auto;
+  }  
+  .home-heading {
+    font-size: 40px;
+      max-width:400px;
+  }
+    .button,.button2{
+        font-size:10px;
+        width:100px;
+        margin:0;
+        height:40px;
+        padding:0;
+        border-radius:10px;
+    }
+    .button{
+        padding-left:10px;
+        padding-right:10px;
+        align-items:center;
+    }
+    .button-container{
+        margin:40px 70px ;
+    }
+    footer{
+        bottom:0;
+        margin:0;
     }
 }
