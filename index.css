@@ -357,7 +357,8 @@ span {
         margin:40px 70px ;
     }
     footer{
+        width:320px;
+        position:absolute;
         bottom:0;
-        margin:0;
     }
 }
