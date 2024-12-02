@@ -83,7 +83,12 @@ function generateCV() {
     alert("Please upload a profile picture.");
   }
 }
-
+document.getElementById("copy-link-btn").addEventListener("click", function () {
+  const currentURL = window.location.href; // Get the current page URL
+  navigator.clipboard.writeText(currentURL).then(() => {
+    alert("Shareable link copied to clipboard: " + currentURL);
+  });
+});
 function downloadPDF() {
   const element = document.getElementById("cvPreview");
   html2pdf()
